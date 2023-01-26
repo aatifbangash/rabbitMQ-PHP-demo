@@ -6,10 +6,10 @@ require_once __DIR__ . '/vendor/autoload.php';
 
 define("RABBITMQ_HOST", "snake.rmq2.cloudamqp.com");
 define("RABBITMQ_PORT", 5672);
-define("RABBITMQ_USERNAME", "xeyxstza");
-define("RABBITMQ_PASSWORD", "FtiV_dXZIjH7K9wZw7Y9XDq0Doig_z4q");
+define("RABBITMQ_USERNAME", "XXXX");
+define("RABBITMQ_PASSWORD", "XXXX_z4q");
 define("RABBITMQ_QUEUE_NAME", "task_queue");
-define("CLOUDAMQP_URL", "amqps://xeyxstza:FtiV_dXZIjH7K9wZw7Y9XDq0Doig_z4q@snake.rmq2.cloudamqp.com/xeyxstza");
+define("CLOUDAMQP_URL", "amqps://XXXX/xeyxstza");
 
 $url_str = CLOUDAMQP_URL
     or exit("CLOUDAMQP_URL not set");

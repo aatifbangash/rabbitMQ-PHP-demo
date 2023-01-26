@@ -4,12 +4,12 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 require_once __DIR__ . '/vendor/autoload.php';
 
-define("RABBITMQ_HOST", "snake.rmq2.cloudamqp.com");
+define("RABBITMQ_HOST", "XXXXX");
 define("RABBITMQ_PORT", 5672);
-define("RABBITMQ_USERNAME", "xeyxstza");
-define("RABBITMQ_PASSWORD", "FtiV_dXZIjH7K9wZw7Y9XDq0Doig_z4q");
+define("RABBITMQ_USERNAME", "X");
+define("RABBITMQ_PASSWORD", "XXXX");
 define("RABBITMQ_QUEUE_NAME", "task_queue");
-define("CLOUDAMQP_URL", "amqps://xeyxstza:FtiV_dXZIjH7K9wZw7Y9XDq0Doig_z4q@snake.rmq2.cloudamqp.com/xeyxstza");
+define("CLOUDAMQP_URL", "amqps://XXXXX");
 
 $url_str = CLOUDAMQP_URL
     or exit("CLOUDAMQP_URL not set");
